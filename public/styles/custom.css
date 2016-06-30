@@ -1,0 +1,234 @@
+.bg{
+	height:80vh;
+	width:100%;
+	background-color: #C63D0F;
+  	opacity: 1;
+  	margin-top: -50px;
+}
+
+.minibg{
+	background-color: transparent;
+	opacity:1;
+	height: 350px;
+	border-radius: 25px;
+	margin-bottom:20px;
+
+}
+
+.bg2 p {
+	text-align: center;
+	color:#C63D0F;
+	font-size: 15px;
+	margin-bottom: 40px;
+}
+.img1 p {
+	position: relative;
+/*	width:100%;
+*/	top: 45%;
+	color:#FDF3E7;
+	font-size: 25px;
+	font-style: bold;
+	text-align: center;
+	opacity: 1;
+	z-index: 150;
+	background-color:#3B3738;
+
+}
+
+.img2 p {
+	position: relative;
+/*	width:100%;
+*/	top: 45%;
+	color:#FDF3E7;
+	font-size: 25px;
+	font-style: bold;
+	text-align: center;
+	opacity: 1;
+	z-index: 150;
+	background-color:#3B3738;
+
+}
+
+
+.img3 p {
+	position: relative;
+/*	width:100%;
+*/	top: 45%;
+	color:#FDF3E7;
+	font-size: 25px;
+	font-style: bold;
+	text-align: center;
+	opacity: 1;
+	z-index: 150;
+	background-color:#3B3738;
+
+}
+.minibg img{
+	background-size: cover;
+
+}
+/*
+.bg h1{
+	font-family: Helvetica;
+	font-style: italic;
+	position: absolute;
+	top:30%;
+	left: 30%;
+	color: #FDF3E7;
+	font-size:45px;
+	text-align: center;
+	z-index:1000;
+}
+*/
+.bg img{
+	width: 28%;
+	height: auto;
+	position: absolute;
+	top: 19%;
+	left: 35.5%;
+}
+
+.img1 {
+	padding-top:10px;
+	padding-bottom:10px;
+
+	border-radius: 25px;
+	width:92%;
+	height:100%;
+	opacity:0.8;
+	position: absolute;
+    top: 0;
+    left: 15px;
+    right: 0;
+    bottom: 0;
+    background-image: url("http://www.prominentalumni.com/principal/sites/default/files/field/image/healthy%20food.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transition: opacity 0.5s ease-in-out;
+  	-moz-transition: opacity 0.5s ease-in-out;
+  	-ms-transition: opacity 0.5s ease-in-out;
+  	-o-transition: opacity 0.5s ease-in-out;
+  	transition: opacity 0.5s ease-in-out;
+}
+
+.img1:hover{
+	zoom: 1;
+  	filter: alpha(opacity=50);
+  	opacity: 0.5;
+}
+
+.img2 {
+		padding-top:10px;
+	padding-bottom:10px;
+	border-radius: 25px;
+	width:92%;
+	height:100%;
+	opacity:0.8;
+	position: absolute;
+    top: 0;
+    left: 15px;
+    right: 0;
+    bottom: 0;
+    background-image: url("http://blog.unicasport.com/wp-content/uploads/Advantages-of-eating-healthy-food-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transition: opacity 0.5s ease-in-out;
+  	-moz-transition: opacity 0.5s ease-in-out;
+  	-ms-transition: opacity 0.5s ease-in-out;
+  	-o-transition: opacity 0.5s ease-in-out;
+  	transition: opacity 0.5s ease-in-out;
+}
+
+.img2:hover{
+	zoom: 1;
+  	filter: alpha(opacity=50);
+  	opacity: 0.5;
+}
+
+.img3 {
+		padding-top:10px;
+	padding-bottom:10px;
+	border-radius: 25px;
+	width:92%;
+	height:100%;
+	opacity:0.8;
+	position: absolute;
+    top: 0;
+    left: 15px;
+    right: 0;
+    bottom: 0;
+    background-image: url("http://www.foodplease.com/sites/default/files/featured_image/piece/16/04/junkfoodfeature.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transition: opacity 0.5s ease-in-out;
+  	-moz-transition: opacity 0.5s ease-in-out;
+  	-ms-transition: opacity 0.5s ease-in-out;
+  	-o-transition: opacity 0.5s ease-in-out;
+  	transition: opacity 0.5s ease-in-out;
+}
+
+.img3:hover{
+	zoom: 1;
+  	filter: alpha(opacity=50);
+  	opacity: 0.5;
+}
+
+.bg2{
+	min-height: 90vh;
+	height: 100%;
+	width:100%;
+	background-color:#FDF3E7;
+}
+
+.footy{
+	margin-top:20px;
+	height: 17vh;
+	width:100%;
+	background-color: #C63D0F;
+	color: #FDF3E7;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.footy2{
+	position:relative;
+	top: 100vh;
+	margin-top:20px;
+	height: 17vh;
+	width:100%;
+	background-color: #C63D0F;
+	color: #FDF3E7;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.cono{
+	background-color: #C63D0F;
+	height:20vh;
+	width:100%;
+}
+.cono img{
+	position: relative;
+	left: 45%;
+	top: 20px;
+	width: 10%;
+	height:auto;
+}
+
+.recept{
+	background-color: #3B3738;
+	height: 15vh;
+	border-radius: 10px;
+	text-align: center;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.recept a{
+	font-size: 20px;
+	position: relative;
+	top: 34%;
+}
+
+
+

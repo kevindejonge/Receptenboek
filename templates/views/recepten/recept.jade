@@ -1,0 +1,10 @@
+extends ../../layouts/default
+
+block content
+	.container: .jumbotron
+		h3=data.recept.name
+		p #{data.recept.ingredientenlijst}
+		p #{data.recept.bereiding}  
+		p #{data.recept.categories}
+
+		
