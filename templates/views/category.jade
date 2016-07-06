@@ -4,15 +4,16 @@ block content
 	div(class="back")
 	div(class="cono")
 		img(src="http://imageshack.com/a/img921/7946/jZWPIb.png")
-	
 	.container
 		if !data.recepten
 				h2 Geen recepten.
 		else
 			each recept in data.recepten
 				.col-md-4
+					//- p=data.recept.name
 					div(class="recept")
 						a(href="/recepten/recept/" + recept.name)=recept.name
+						br
 
 	div(class="footy2")
 		p copyright by Kevin de Jonge 2016

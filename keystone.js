@@ -21,7 +21,17 @@ keystone.init({
 	'wysiwyg additional plugins': 'images',
 	'wysiwyg additional buttons': 'images',
 	'cloudinary config': 'cloudinary://api_key:api_secret@cloud_name',
-
+	'wysiwyg override toolbar': false,
+'wysiwyg menubar': true,
+'wysiwyg skin': 'lightgray',
+'wysiwyg additional buttons': 'searchreplace visualchars,'
+ + ' charmap ltr rtl pagebreak paste, forecolor backcolor,'
+ +' emoticons media, preview print ',
+'wysiwyg additional plugins': 'example, table, advlist, anchor,'
+ + ' autolink, autosave, bbcode, charmap, contextmenu, '
+ + ' directionality, emoticons, fullpage, hr, media, pagebreak,'
+ + ' paste, preview, print, searchreplace, textcolor,'
+ + ' visualblocks, visualchars, wordcount',
 
 	'auto update': true,
 	'session': true,

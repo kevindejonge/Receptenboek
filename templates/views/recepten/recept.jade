@@ -1,10 +1,23 @@
 extends ../../layouts/default
 
 block content
-	.container: .jumbotron
-		h3=data.recept.name
-		p #{data.recept.ingredientenlijst}
-		p #{data.recept.bereiding}  
-		p #{data.recept.categories}
+	div(class="cono")
+		img(src="http://imageshack.com/a/img921/7946/jZWPIb.png")
+		.container
+			br
+			br
+			br
+			.col-md-8
+				div(class="recept2")
+					h3=data.recept.name
+					p #{data.recept.bereiding}
+					p #{data.recept.categories}
+					p #{data.recept.author}
+			.col-md-4
+				div(class="recept2")
+					h4 Ingredienten:
+					p #{data.recept.ingredientenlijst}
 
-		
+
+
+			
