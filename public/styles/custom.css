@@ -256,7 +256,7 @@ body {
     left: 15px;
     right: 0;
     bottom: 0;
-    background-image: url("http://www.foodplease.com/sites/default/files/featured_image/piece/16/04/junkfoodfeature.jpg");
+    background-image: url("http://assets3.thrillist.com/v1/image/1185257/size/tl-horizontal_main/13-things-you-didn-t-know-about-in-n-out-burger");
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-transition: opacity 0.5s ease-in-out;
@@ -347,7 +347,6 @@ body {
   	-ms-transition: color 2s;
   	-o-transition: color 2s;
   	transition: color 2s;
-}
 }
 
 .recept a:hover{

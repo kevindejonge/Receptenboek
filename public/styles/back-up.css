@@ -13,6 +13,8 @@ html {
 body {
   margin: 0; }
 
+
+
 article,
 aside,
 details,
@@ -235,8 +237,6 @@ th {
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important; } }
-
-
 
 @font-face {
   font-family: 'Glyphicons Halflings';
@@ -1072,15 +1072,16 @@ textarea {
   line-height: inherit; }
 
 a {
-  color: #337ab7;
+  color: #FDF3E7;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #23527c;
+    color: #C63D0F;
     text-decoration: underline; }
   a:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px; }
+
 
 figure {
   margin: 0; }
@@ -1502,6 +1503,8 @@ pre {
   overflow-y: scroll; }
 
 .container {
+  position: relative;
+  top:50px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -1522,6 +1525,8 @@ pre {
       width: 1170px; } }
 
 .container-fluid {
+  width:100%;
+  background-color:#C63D0F;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -3693,7 +3698,9 @@ tbody.collapse.in {
     float: left; } }
 
 .navbar-collapse {
+  text-align: center;
   overflow-x: visible;
+  background-color: #C63D0F;
   padding-right: 15px;
   padding-left: 15px;
   border-top: 1px solid transparent;
@@ -3776,11 +3783,13 @@ tbody.collapse.in {
 .navbar-brand {
   float: left;
   padding: 15px 15px;
-  font-size: 18px;
+  font-size: 25px;
+  font-style: italic;
   line-height: 20px;
   height: 50px; }
   .navbar-brand:hover, .navbar-brand:focus {
-    text-decoration: none; }
+    text-decoration: none;
+    opacity:0.8; }
   .navbar-brand > img {
     display: block; }
   @media (min-width: 768px) {
@@ -3797,7 +3806,7 @@ tbody.collapse.in {
   margin-bottom: 8px;
   background-color: transparent;
   background-image: none;
-  border: 1px solid transparent;
+  border: 1px solid #FDF3E7;
   border-radius: 4px; }
   .navbar-toggle:focus {
     outline: 0; }
@@ -3805,6 +3814,7 @@ tbody.collapse.in {
     display: block;
     width: 22px;
     height: 2px;
+    border: 1px solid #FDF3E7;
     border-radius: 1px; }
   .navbar-toggle .icon-bar + .icon-bar {
     margin-top: 4px; }
